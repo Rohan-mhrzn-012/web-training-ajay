@@ -91,10 +91,37 @@ margin-bottom: 30px;
 
 .skills , #projects{
 height: 480px;   
-flex-direction: column;
-justify-content: center;
-
 } 
+
+#lts{
+    list-style: number;
+    margin-left: 100px;
+}
+#lts li {
+    font-size: 30px;
+    gap: 10px;
+}
+#lts h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.pic8 {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#next{
+    width: 5px;
+    height: 40px;
+    background-color: transparent;
+}
 
 #projects{
 height: 380px;
