@@ -74,40 +74,40 @@
   }
 ];
 
-    products.forEach((product) =>{
+    // products.forEach((product) =>{
     
-      const item = document.createElement("div");
-      item.classList.add("box");
+    //   const item = document.createElement("div");
+    //   item.classList.add("box");
 
-      const img = document.createElement("img");
-      img.src = product.image; 
+    //   const img = document.createElement("img");
+    //   img.src = product.image; 
 
    
-      const title = document.createElement("p");
-      title.classList.add("text");
-      title.textContent = product.titles; 
+    //   const title = document.createElement("p");
+    //   title.classList.add("text");
+    //   title.textContent = product.titles; 
 
 
-      item.appendChild(img);
-      item.appendChild(title);
+    //   item.appendChild(img);
+    //   item.appendChild(title);
 
     
-      container.appendChild(item);
+    //   container.appendChild(item);
       
-    });
+    // });
 
-  //    for (let i = 0; i < products.length; i++) {
-  //   const item = document.createElement("div");
-  //   item.classList.add("box");
+     for (let i = 0; i < products.length; i++) {
+    const item = document.createElement("div");
+    item.classList.add("box");
 
-  //   const img = document.createElement("img");
-  //   img.src = products[i].image;
+    const img = document.createElement("img");
+    img.src = products[i].image;
 
-  //   const title = document.createElement("p");
-  //   title.classList.add("text");
-  //   title.textContent = products[i].titles;
+    const title = document.createElement("p");
+    title.classList.add("text");
+    title.textContent = products[i].titles;
 
-  //   item.appendChild(img);
-  //   item.appendChild(title);
-  //   container.appendChild(item);
-  // }
+    item.appendChild(img);
+    item.appendChild(title);
+    container.appendChild(item);
+  }

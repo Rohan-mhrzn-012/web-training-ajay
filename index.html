@@ -19,7 +19,6 @@
             </div>
         </div>
     </nav>
-
     <header>
         <div class="hero">
             <div class="head">
@@ -45,7 +44,7 @@ and learning new technologies.</pre>
     </section>
 
     <section id="skills">
-  <button id="prev">◄</button>
+  <button id="prev">◀</button>
   <div class="skills" id="contentArea">
     <ul id="lts">
       <h2 id="text1">Skills</h2>
@@ -70,14 +69,19 @@ and learning new technologies.</pre>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
+        <div id="contacts">
+            <div class="Con1">
+        <h2>Contact Us</h2>
+        <pre>Realize your dream with us</pre></div>
         <form id="contactForm">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
+            <input type="text" placeholder="First Name" name="fname" required>
+            <input type="text" placeholder="Last Name" name="sname" required>
+            <input type="email" placeholder="Your Email" name="mail" required>
+            <textarea placeholder="Your Message" name="message" required></textarea>
+            <button type="submit" id="sub">Send Message</button>
             <p id="msg"></p>
         </form>
+        </div>
     </section>
     <footer>
         <p>&copy; 2025 Ajay Bhayadyo</p>
